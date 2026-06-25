@@ -3,45 +3,253 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Paul Gifford | AWS S3 Static Website</title>
+  <title>Paul Gifford — Resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Syne:wght@700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Paul Gifford</h1>
-    <p>AWS S3 Static Website Project</p>
-  </header>
 
-  <main>
-    <section>
-      <h2>About This Project</h2>
-      <p>
-        This project demonstrates static website hosting using Amazon S3.
-        It is part of my cloud learning journey as I build hands-on AWS experience.
-      </p>
-    </section>
+  <div class="page">
 
-    <section>
-      <h2>What I’m Learning</h2>
-      <ul>
-        <li>Amazon S3 static website hosting</li>
-        <li>Basic HTML and CSS structure</li>
-        <li>GitHub documentation and version control</li>
-        <li>Cloud project organization for portfolio use</li>
-      </ul>
-    </section>
+    <!-- ── HEADER ────────────────────────────────────────────────────────── -->
+    <header class="resume-header">
+      <h1 class="resume-name">Paul Gifford</h1>
+      <p class="resume-subtitle">Top-Secret Clearance &nbsp;·&nbsp; Network Security Engineer &nbsp;·&nbsp; Cloud / AI</p>
+      <div class="resume-contact">
+        <span>Virginia Beach, VA</span>
+        <span>770-688-5803</span>
+        <a href="mailto:pgifford88@proton.me">pgifford88@proton.me</a>
+        <a href="https://linkedin.com/in/paul-giff" target="_blank" rel="noopener">linkedin.com/in/paul-giff</a>
+        <a href="https://github.com/Paul-Gifford" target="_blank" rel="noopener">github.com/Paul-Gifford</a>
+      </div>
+    </header>
 
-    <section>
-      <h2>Next Phase</h2>
-      <p>
-        The next step is to upload this website to an Amazon S3 bucket,
-        enable static website hosting, and document the deployment process.
-      </p>
-    </section>
-  </main>
+    <!-- ── BODY ──────────────────────────────────────────────────────────── -->
+    <main class="resume-body">
 
-  <footer>
-    <p>Created by Paul Gifford</p>
-  </footer>
+      <!-- Professional Summary -->
+      <section class="first-section">
+        <h2 class="section-label">Professional Summary</h2>
+        <p class="summary-text">
+          Network and cybersecurity professional with 9+ years of experience supporting enterprise and Department of Defense
+          environments across network engineering, systems administration, infrastructure security, vulnerability remediation,
+          and mission-critical operations. Proven ability to secure routers, firewalls, wireless infrastructure, Windows-based
+          environments, and segmented networks in high-stakes operational settings. Strong foundation in TCP/IP, network
+          security, access control, security monitoring, and defense-in-depth, with experience supporting 500+ workstations,
+          1,000+ endpoints, and classified SIPR/NIPR infrastructure. Currently expanding technical depth in cloud infrastructure,
+          AI agent development, and automation using AWS and the Anthropic Claude API.
+        </p>
+      </section>
+
+      <!-- Technical Skills -->
+      <section>
+        <h2 class="section-label">Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-item">
+            <span class="skill-label">Networking &amp; Infrastructure</span>
+            <span class="skill-val">TCP/IP, DNS, VLANs, Subnetting, Routing, Switching, OSPF, BGP, SD-WAN, VPN, Aruba Controllers, Aruba APs, EdgeConnect, Cisco ISR, Cisco Catalyst, pfSense</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-label">Security &amp; Compliance</span>
+            <span class="skill-val">STIG Compliance, ACAS/Tenable, POA&amp;M Remediation, IAVM, Firewall Hardening, ACLs, RBAC, Active Directory Security, 802.1X, RMF</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-label">Systems &amp; Tooling</span>
+            <span class="skill-val">Windows Server, Active Directory, VMware ESXi, Linux, PowerShell, Bash, Python, Splunk, Wireshark</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-label">Cloud &amp; AI</span>
+            <span class="skill-val">AWS (S3, CloudFront, Lambda, IAM), Anthropic Claude API, Tool Use / Function Calling, Agentic Workflows, REST APIs, Git, GitHub</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-label">Cryptographic Devices</span>
+            <span class="skill-val">NSA Type 1 – KG-175D TACLANE, KG-75; Keying Material (KEYMAT) management</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-label">Offensive Security (Lab)</span>
+            <span class="skill-val">Nmap, Burp Suite Professional, Metasploit, Kali Linux, SQL Injection, XSS, Authentication Bypass, OWASP Top 10</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Professional Experience -->
+      <section>
+        <h2 class="section-label">Professional Experience</h2>
+
+        <div class="job-block">
+          <div class="job-header">
+            <span class="job-title">Independent Study &amp; Cloud/AI Portfolio Development</span>
+            <span class="job-dates">January 2026 – Present</span>
+          </div>
+          <div class="job-company">Self-Directed</div>
+          <ul class="bullets">
+            <li>Studying for AWS Certified Solutions Architect Associate (SAA-C03), covering EC2, S3, CloudFront, Lambda, RDS, IAM, and VPC architecture.</li>
+            <li>Built and deployed an autonomous AI agent using the Anthropic Claude API with tool use and function calling, implementing web search, file I/O, and session memory systems.</li>
+            <li>Developing cloud and AI portfolio projects targeting cloud security, serverless architecture, and AI-integrated infrastructure.</li>
+            <li>Maintaining active GitHub portfolio at github.com/Paul-Gifford documenting hands-on project work.</li>
+          </ul>
+        </div>
+
+        <div class="job-block">
+          <div class="job-header">
+            <span class="job-title">Network Engineer</span>
+            <span class="job-dates">September 2025 – January 2026</span>
+          </div>
+          <div class="job-company">Altagrove</div>
+          <ul class="bullets">
+            <li>Engineered and deployed shipboard wireless network infrastructure across 4 vessels, installing 40+ access points per ship to support 100+ users in high-interference maritime environments.</li>
+            <li>Configured and hardened Aruba wireless controllers and EdgeConnect SD-WAN solutions, maintaining 99.9% network uptime across all vessels.</li>
+            <li>Designed and implemented VLAN segmentation across 4 VLANs to isolate sensitive traffic and strengthen network security posture.</li>
+            <li>Conducted infrastructure assessments and site surveys to identify coverage gaps and operational constraints prior to deployment.</li>
+            <li>Applied STIG-aligned hardening practices to wireless infrastructure components, ensuring deployments met security baseline requirements.</li>
+          </ul>
+        </div>
+
+        <div class="job-block">
+          <div class="job-header">
+            <span class="job-title">Network Systems Administrator (SURTASS)</span>
+            <span class="job-dates">September 2023 – September 2025</span>
+          </div>
+          <div class="job-company">Leidos</div>
+          <ul class="bullets">
+            <li>Administered and secured 3 mission-critical classified networks (NIPR, SIPR, ICP) in support of Department of Defense operations.</li>
+            <li>Operated and maintained NSA Type 1 cryptographic devices including KG-175D TACLANE; managed KEYMAT distribution in compliance with NSA standards.</li>
+            <li>Conducted weekly ACAS/Tenable vulnerability scans and maintained zero unresolved findings through IAVM/STIG compliance.</li>
+            <li>Managed 40 VMware ESXi virtual machines across NIPR and SIPR enclaves; monitored security-relevant activity in Splunk.</li>
+            <li>Managed access for 30 user accounts and 10 security groups, enforcing RBAC and least-privilege practices across classified systems.</li>
+            <li>Troubleshot and restored satellite WAN circuit connectivity with average recovery times of 30–60 minutes.</li>
+          </ul>
+        </div>
+
+        <div class="job-block">
+          <div class="job-header">
+            <span class="job-title">Network Operations Specialist</span>
+            <span class="job-dates">June 2022 – November 2022</span>
+          </div>
+          <div class="job-company">Prime Technical Services, Inc.</div>
+          <ul class="bullets">
+            <li>Monitored enterprise network performance and supported incident response for an environment spanning 10,000+ systems, endpoints, and locations.</li>
+            <li>Resolved 10–20 tickets per week and restored critical network service outages with typical recovery times of 30–60 minutes.</li>
+            <li>Performed patching, configuration updates, and security remediation to maintain reliability across large-scale enterprise operations.</li>
+            <li>Authored SOPs and troubleshooting documentation to improve operational consistency and accelerate issue resolution.</li>
+          </ul>
+        </div>
+
+        <div class="job-block">
+          <div class="job-header">
+            <span class="job-title">Field Service Technician (NMCI)</span>
+            <span class="job-dates">March 2017 – October 2021</span>
+          </div>
+          <div class="job-company">Prime Technical Services, Inc.</div>
+          <ul class="bullets">
+            <li>Delivered technical support for 500+ workstations and 1,000+ endpoints across secure Navy and Marine Corps environments including NAS Oceana and Dam Neck.</li>
+            <li>Resolved 50–100 tickets per week involving hardware, software, access, and connectivity in high-availability operational settings.</li>
+            <li>Imaged, deployed, and reconfigured 200+ systems in compliance with DoD baseline standards.</li>
+            <li>Managed user accounts, permissions, and endpoint support activities to maintain secure access and reliable operations.</li>
+          </ul>
+        </div>
+
+        <div class="job-block">
+          <div class="job-header">
+            <span class="job-title">Hospital Corpsman (HM)</span>
+            <span class="job-dates">May 2009 – August 2016</span>
+          </div>
+          <div class="job-company">United States Navy</div>
+          <ul class="bullets">
+            <li>Served 7 years on active duty, demonstrating sustained commitment and performance under pressure in high-stakes operational environments.</li>
+            <li>Supervised and mentored a team of 3+ junior sailors on procedures, professional standards, and daily operations.</li>
+            <li>Developed and delivered training on medical procedures to personnel across the command.</li>
+            <li>Managed administrative duties including personnel records, supply tracking, and documentation.</li>
+          </ul>
+        </div>
+
+      </section>
+
+      <!-- Technical Projects -->
+      <section>
+        <h2 class="section-label">Technical Projects</h2>
+
+        <div class="job-block">
+          <div class="job-header">
+            <span class="job-title">Claude Task Agent</span>
+            <a class="proj-link" href="https://github.com/Paul-Gifford/claude-task-agent" target="_blank" rel="noopener">github.com/Paul-Gifford/claude-task-agent</a>
+          </div>
+          <div class="job-company">Python, Anthropic Claude API, Brave Search API, Git</div>
+          <ul class="bullets">
+            <li>Built an autonomous AI agent using the Anthropic Claude API that accepts natural language goals, decomposes them into steps, and executes them using tool use and function calling.</li>
+            <li>Implemented an extensible tool registry supporting web search, file I/O, and safe math evaluation with a session memory system tracking full agent context across multi-step runs.</li>
+            <li>Designed a session memory system to track tool calls, results, and files written across multi-step agent loops.</li>
+          </ul>
+        </div>
+
+        <div class="job-block">
+          <div class="job-header">
+            <span class="job-title">Cloud Resume Challenge</span>
+            <a class="proj-link" href="https://github.com/Paul-Gifford/aws-s3-static-website" target="_blank" rel="noopener">github.com/Paul-Gifford/aws-s3-static-website</a>
+          </div>
+          <div class="job-company">AWS S3, CloudFront, Route 53, Lambda, DynamoDB, API Gateway, GitHub Actions</div>
+          <ul class="bullets">
+            <li>Deployed this resume as a static website on AWS S3 with HTTPS via CloudFront and a custom domain via Route 53.</li>
+            <li>Built a serverless visitor counter using Lambda, DynamoDB, and API Gateway with JavaScript integration on the frontend.</li>
+            <li>Automated deployment pipeline using GitHub Actions — changes pushed to main automatically sync to S3 and invalidate the CloudFront cache.</li>
+          </ul>
+        </div>
+
+        <div class="job-block">
+          <div class="job-header">
+            <span class="job-title">Hybrid Virtual Penetration Testing Laboratory</span>
+          </div>
+          <div class="job-company">VMware, pfSense, Kali Linux, Metasploit, Burp Suite Professional</div>
+          <ul class="bullets">
+            <li>Deployed a segmented security lab with 5 virtual machines, 4 subnets, and 1 DMZ to simulate enterprise attack paths and defensive boundaries.</li>
+            <li>Built an Active Directory domain with Windows Server 2022, Kali Linux, and Metasploitable 2; conducted recon, enumeration, service analysis, and exploitation testing.</li>
+          </ul>
+        </div>
+
+      </section>
+
+      <!-- Education & Certifications -->
+      <section>
+        <h2 class="section-label">Education &amp; Certifications</h2>
+        <div class="job-block">
+          <div class="job-header">
+            <span class="job-title">ECPI University — B.S. Computer and Information Science, Concentration in Cybersecurity</span>
+            <span class="job-dates">Graduated July 2023</span>
+          </div>
+          <ul class="bullets">
+            <li>CompTIA Security+</li>
+            <li>CompTIA A+</li>
+            <li>AWS Certified Solutions Architect Associate (SAA-C03) — In Progress, target Aug 2026</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Visitor Counter -->
+      <div class="counter-section">
+        <p>You are visitor number <span class="counter-val" id="visitor-count">—</span></p>
+      </div>
+
+    </main>
+  </div>
+
+  <script>
+    // Visitor counter — wire this to your API Gateway endpoint after Lambda/DynamoDB are set up
+    const API_URL = "YOUR_API_GATEWAY_URL_HERE";
+
+    async function getVisitorCount() {
+      try {
+        const response = await fetch(API_URL);
+        const data = await response.json();
+        document.getElementById("visitor-count").textContent = data.count;
+      } catch (err) {
+        document.getElementById("visitor-count").textContent = "—";
+      }
+    }
+
+    getVisitorCount();
+  </script>
+
 </body>
 </html>
