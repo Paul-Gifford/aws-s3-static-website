@@ -23,7 +23,7 @@ I am building this project as part of my AWS/cloud learning journey. The goal is
 - `screenshots/` - Proof of setup and deployment
 
 ## Project Status
-In progress
+Live at https://paul-giff.com
 
 ## Planned Build Steps
 1. Create the website files locally/in GitHub
