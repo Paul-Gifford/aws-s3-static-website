@@ -131,7 +131,7 @@ body {
 }
 
 .skill-val {
-  color: #4b5563;
+  color: #4b5563 !important;
   font-size: 12px;
   line-height: 1.5;
 }
