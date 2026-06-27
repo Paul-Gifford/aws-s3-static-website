@@ -33,13 +33,13 @@
       <section class="first-section">
         <h2 class="section-label">Professional Summary</h2>
         <p class="summary-text">
-          Network and cybersecurity professional with 9+ years of experience supporting enterprise and Department of Defense
+          Network and cybersecurity professional with 10+ years of experience supporting enterprise and Department of Defense
           environments across network engineering, systems administration, infrastructure security, vulnerability remediation,
           and mission-critical operations. Proven ability to secure routers, firewalls, wireless infrastructure, Windows-based
           environments, and segmented networks in high-stakes operational settings. Strong foundation in TCP/IP, network
           security, access control, security monitoring, and defense-in-depth, with experience supporting 500+ workstations,
           1,000+ endpoints, and classified SIPR/NIPR infrastructure. Currently expanding technical depth in cloud infrastructure,
-          AI agent development, and automation using AWS and the Anthropic Claude API.
+          AI agent development, and automation using AWS, Terraform, and the Anthropic Claude API.
         </p>
       </section>
 
@@ -61,7 +61,7 @@
           </div>
           <div class="skill-item">
             <span class="skill-label">Cloud &amp; AI</span>
-            <span class="skill-val">AWS (S3, CloudFront, Lambda, IAM), Anthropic Claude API, Tool Use / Function Calling, Agentic Workflows, REST APIs, Git, GitHub</span>
+            <span class="skill-val">AWS (S3, CloudFront, Lambda, IAM, DynamoDB, Route 53, API Gateway), Terraform, Anthropic Claude API, Tool Use / Function Calling, Agentic Workflows, REST APIs, Git, GitHub</span>
           </div>
           <div class="skill-item">
             <span class="skill-label">Cryptographic Devices</span>
@@ -86,6 +86,7 @@
           <div class="job-company">Self-Directed</div>
           <ul class="bullets">
             <li>Studying for AWS Certified Solutions Architect Associate (SAA-C03), covering EC2, S3, CloudFront, Lambda, RDS, IAM, and VPC architecture.</li>
+            <li>Developed Terraform IaC project defining complete AWS serverless infrastructure for cloud resume site across S3, CloudFront, Lambda, DynamoDB, and Route 53.</li>
             <li>Built and deployed an autonomous AI agent using the Anthropic Claude API with tool use and function calling, implementing web search, file I/O, and session memory systems.</li>
             <li>Developing cloud and AI portfolio projects targeting cloud security, serverless architecture, and AI-integrated infrastructure.</li>
             <li>Maintaining active GitHub portfolio at github.com/Paul-Gifford documenting hands-on project work.</li>
@@ -194,6 +195,20 @@
             <li>Deployed this resume as a static website on AWS S3 with HTTPS via CloudFront and a custom domain via Route 53.</li>
             <li>Built a serverless visitor counter using Lambda, DynamoDB, and API Gateway with JavaScript integration on the frontend.</li>
             <li>Automated deployment pipeline using GitHub Actions — changes pushed to main automatically sync to S3 and invalidate the CloudFront cache.</li>
+          </ul>
+        </div>
+
+        <div class="job-block">
+          <div class="job-header">
+            <span class="job-title">Cloud Resume Challenge — Terraform IaC</span>
+            <a class="proj-link" href="https://github.com/Paul-Gifford/terraform-cloud-resume" target="_blank" rel="noopener">github.com/Paul-Gifford/terraform-cloud-resume</a>
+          </div>
+          <div class="job-company">Terraform, AWS, Python, Git</div>
+          <ul class="bullets">
+            <li>Defined complete AWS serverless infrastructure as code using Terraform, covering S3, CloudFront, Route 53, Lambda, DynamoDB, and IAM across 7 modular configuration files.</li>
+            <li>Configured CloudFront distribution with custom ACM SSL certificate, OAC-based S3 origin authentication, and HTTPS enforcement for paul-giff.com.</li>
+            <li>Implemented least-privilege IAM roles and policies scoping Lambda execution permissions to DynamoDB read/write operations only.</li>
+            <li>Deployed visitor counter backend using Python Lambda with CORS-restricted function URL, connected to DynamoDB with PAY_PER_REQUEST billing.</li>
           </ul>
         </div>
 
